@@ -15,6 +15,6 @@ namespace AplicativoMVC.Models
         [Range(1,20,ErrorMessage = "Valor invalido!")]
         [Required(ErrorMessage = "Esse campo e obrigatorio!")]
         public int Valor { get; set; }
-        public List<Produto> Produtos { get; set; }
+        //public List<Produto> Produtos { get; set; }
     }
 }
